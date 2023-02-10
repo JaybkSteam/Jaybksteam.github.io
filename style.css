@@ -3,6 +3,34 @@ body {
 font-family: "Nunito",sans-serif;
 } 
 
-nav
+nav{
 
- background-color 
+background-color:#3da9fc;
+
+}
+
+nav > a {
+    color: #094067;
+
+text-decoration: None;
+padding: 12px;
+display: inline-block;
+}
+
+nav > a:hover {
+
+background-color:#fffffe;
+
+
+
+
+}
+
+ul > a {
+color: #094067;
+
+
+}
+
+
+ 
