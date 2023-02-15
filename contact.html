@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Jaylin Edouard</title>
+
 </head>
 <body>
-<p>
-    Twiter Link-  <br>
-    Facebook Link - <br> 
-    Instagram Link - <br>
+    <nav> 
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact info</a>
+        <a href="projects.html">My projects</a>
+        </nav>
+
+
+<h1>Contact Me</h1>
+
+<p>Use this form down below  to contact me!</p>
+<form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+>
+ <label>Name</label>
+ <br>
+ <input placeholder="John doe" name="full name"> 
+ <br>
+ <label>Email</label>
+ <br>
+ <input name="email">
+ <br>
+ <label>Best Day to contact you</label>
+ <br>
+ <input type="date" name="=date">
+ <br>
+ <label>Best Contact Time</label>
+ <br>
+ <input type="time" name="contactTime">
+ <br>
+ <label>Comments</label>
+ <br>
+ <textarea name="comments"></textarea>
+ <br>
+ <input type="checkbox" name="terms">
+ <label>I agree to the terms and conditions</label>
+<br>
+
+ <input type="submit">
+ <input type="reset">
+
+
+<input name="send-to" value="jedouard@brooklynsteamcenter.org" hidden>
+
+    
+
 
 
 </p>
