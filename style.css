@@ -1,36 +1,43 @@
 body { 
 
-font-family: "Nunito",sans-serif;
+font-family: 'Itim', cursive;
+background-color: hsl(206, 97%, 61%);
 } 
-
+h1,h2,h3,h4,h5,h6,p,li {
+text-decoration: underline;
+padding: 12px;
+display: inline-block;
+}
 nav{
 
-background-color:#3da9fc;
+background-color:#000000; text-align:center
+
+}
+
+nav>a:hover{
+  background-color: rgb(255, 245, 245) rgb(red, green, blue);
+
 
 }
 
 nav > a {
-    color: #094067;
-
-text-decoration: None;
-padding: 12px;
+text-decoration: none;
+color: rgb(254, 254, 254);
 display: inline-block;
+padding: 8px 12px;
+}
+a,h1,h3,p,label{}
+
+input, textarea{
+background-color: rgb(253, 253, 253);
+border-radius: 8px;
+color: none;
+padding: 8px 12px;
+}
+input[type=submit],input[type=reset] {
+  background-color:rgb(255, 255, 255)
 }
 
-nav > a:hover {
-
-background-color:#fffffe;
-
-
-
-
+input:focus, textarea:focus{
+  background-color: none;
 }
-
-ul > li {
-color: #0d81da;
-
-
-}
-
-
- .center-text
