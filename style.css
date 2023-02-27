@@ -8,7 +8,9 @@ text-decoration: underline;
 padding: 12px;}
 nav{
 
-background-color:#000000; text-align:center
+background-color:#000000; text-align:center;
+position: sticky;
+top: 0;
 
 }
 
@@ -24,7 +26,7 @@ color: rgb(254, 254, 254);
 display: inline-block;
 padding: 8px 12px;
 }
-a,h1,h3,p,label{}
+ a,h1,h3,p,label{}
 
 input, textarea{
 background-color: rgb(253, 253, 253);
