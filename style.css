@@ -2,6 +2,8 @@ body {
 
 font-family: 'Itim', cursive;
 background-color: hsl(206, 97%, 61%);
+background: rgb(33,21,238);
+background: linear-gradient(90deg, rgba(33,21,238,0.4780287114845938) 0%, rgba(9,57,121,0.365983893557423) 35%, rgba(0,30,42,1) 100%);
 } 
 h1,h2,h3,h4,h5,h6,p,li {
 text-decoration: underline;
@@ -40,4 +42,12 @@ input[type=submit],input[type=reset] {
 
 input:focus, textarea:focus{
   background-color: none;
+}
+
+  
+@media screen and(max-width:480px)  {
+
+#photo.jpg{width: 200px;}
+
+  /* mobile-phone */
 }
