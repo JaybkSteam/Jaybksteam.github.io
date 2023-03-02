@@ -44,10 +44,13 @@ input:focus, textarea:focus{
   background-color: none;
 }
 
-  
-@media screen and(max-width:480px)  {
 
-#photo.jpg{width: 200px;}
+
+
+
+  
+@media screen and (max-width:480px)  {
+  #Photo {width: 200px;}
 
   /* mobile-phone */
 }
