@@ -7,7 +7,13 @@ background: linear-gradient(90deg, rgba(33,21,238,0.4780287114845938) 0%, rgba(9
 } 
 h1,h2,h3,h4,h5,h6,p,li {
 text-decoration: underline;
-padding: 12px;}
+padding: 12px;
+font-size: large;
+
+}
+
+
+
 nav{
 
 background-color:#000000; text-align:center;
